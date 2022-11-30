@@ -43,6 +43,14 @@
 		]
 		}
 	},
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "lts"
+		},
+		"ghcr.io/devcontainers/features/docker-from-docker:1": {},
+		"ghcr.io/devcontainers/features/aws-cli:1": {}
+	},
+	"postCreateCommand": "pip3 install --user -r requirements.txt"
 
 	// // Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// // "forwardPorts": [],

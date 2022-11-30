@@ -4,8 +4,8 @@ import os
 import openai
 from dotenv import load_dotenv
 
-load_dotenv()  # blank if .env file in same directory as script
-# load_dotenv('<path to file>.env') to point to another location
+# load_dotenv()  # blank if .env file in same directory as script
+# # load_dotenv('<path to file>.env') to point to another location
 key = os.getenv("OPENAI_API_KEY")
 
 openai.api_key = key
