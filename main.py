@@ -2,7 +2,7 @@ from fastapi import FastAPI
 import uvicorn
 import os
 import openai
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 # load_dotenv()  # blank if .env file in same directory as script
 # # load_dotenv('<path to file>.env') to point to another location
