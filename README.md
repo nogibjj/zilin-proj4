@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/nogibjj/zilin-proj4/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/zilin-proj4/actions/workflows/main.yml)
+
 # zilin-proj4
 This is the repository for project 4 for the course IDS706 at Duke University
 
